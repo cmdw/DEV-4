@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0;
+  position: relative;
+}
+.stripe{
+  background: repeating-linear-gradient(
+    -64deg,
+    #4452cb,
+    #415dcf 100px,
+    #3d69d3 300px,
+    #3d69d3 200px
+  );
+  width: 100%;
+  height: 100vh;
+}

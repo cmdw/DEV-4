@@ -1,0 +1,105 @@
+
+
+
+.wave1
+{
+  position:absolute;
+  width:100%;
+  height:43px;
+  bottom:-10px;
+  left:0;
+  z-index:4;
+  background-image: url(http://i448.photobucket.com/albums/qq208/concept_bucket/wave.png);
+    background-repeat: repeat-x;
+  animation: animate1 100s linear infinite;
+}
+
+@keyframes animate1
+{
+  0%
+  {
+    background-position:0;
+  }
+    100%
+  {
+    background-position:5662px;
+  }
+}
+
+.wave2
+{
+  position:absolute;
+  width:100%;
+  height:43px;
+  bottom:-4px;
+  left:0;
+ z-index:3;
+  opacity:0.8;
+  background-image: url(http://i448.photobucket.com/albums/qq208/concept_bucket/wave-pink.png);
+    background-repeat: repeat-x;
+  animation: animate2 150s linear infinite;
+}
+
+@keyframes animate2
+{
+  0%
+  {
+    background-position:5662px;
+  }
+    100%
+  {
+    background-position:0;
+  }
+}
+
+.wave3
+{
+  position:absolute;
+  width:100%;
+  height:60px;
+  bottom:-8px;
+  left:0;
+ z-index:2;
+  opacity:0.8;
+  background-image: url(http://i448.photobucket.com/albums/qq208/concept_bucket/wave-yellow.png);
+    background-repeat: repeat-x;
+  animation: animate3 200s linear infinite;
+}
+
+@keyframes animate3
+{
+  0%
+  {
+    background-position:0;
+  }
+    100%
+  {
+    background-position:5662px;
+  }
+}
+
+.wave4
+{
+  position:absolute;
+  width:100%;
+  height:60px;
+  bottom:-6px;
+  left:0;
+z-index:1;
+  opacity:0.8;
+  background-image: url(http://i448.photobucket.com/albums/qq208/concept_bucket/wave-blue.png);
+    background-repeat: repeat-x;
+  animation: animate4 250s linear infinite;
+}
+
+@keyframes animate4
+{
+  0%
+  {
+    background-position:5662px;
+  }
+    100%
+  {
+    background-position:0;
+  }
+}

@@ -35,11 +35,22 @@
 
   <div id="navbar" class="navbar">
   </div>
+  <div class="nav-left">
+  </div>
+  <div class="nav-right">
+  </div>
+  <div class="nav-left-tablet">
+  </div>
+  <div class="nav-right-tablet">
+  </div>
+  <div class="nav-mobile">
+  </div>
   <div class="logo-circle1 top-center1">
   </div>
   <div class="logo-circle2 top-center2 gradient">
   </div>
   <a href="#" class="logo-home top-center3"></a>
+
 
   <!-- Script JS -->
   <script type="text/javascript" src="js/script.js"></script>

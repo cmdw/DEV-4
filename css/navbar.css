@@ -4,15 +4,44 @@
   transition: 0.5s;
 }
 
-.navbar
-{
+/* navbar */
+.navbar {
+  position: relative;
   width: 100%;
   height: 40px;
   overflow: hidden;
   top: 0;
+  display: flex;
   background: #fff;
+  transition: 0.5s;
 }
 
+.nav-left {
+  background: url(http://i448.photobucket.com/albums/qq208/concept_bucket/nav-left.png)
+    no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 80px;
+  float: left;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  transition: 0.5s;
+}
+
+.nav-right {
+  background: url(http://i448.photobucket.com/albums/qq208/concept_bucket/nav-right.png)
+    no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 80px;
+  float: right;
+  right: 0px;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  transition: 0.5s;
+}
 .brand
 {
   position:absolute;
@@ -66,4 +95,76 @@
   margin-left: 50%;
   left: -20px;
   top: 5px;
+}
+
+
+/* media control */
+@media (max-width: 680px) {
+  /*nav-tablet*/
+  .nav-left {
+    display: none;
+  }
+  .nav-right {
+    display: none;
+  }
+  /*nav tanggung kiri*/
+  .nav-left-tablet {
+    background: url(http://i448.photobucket.com/albums/qq208/concept_bucket/nav-left-tanggung_2.png)
+      no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 80px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    transition: 0.5s;
+  }
+  /*nav tanggung kanan*/
+  .nav-right-tablet {
+    background: url(http://i448.photobucket.com/albums/qq208/concept_bucket/nav-right-tanggung_2.png)
+      no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 80px;
+    float: right;
+    right: 0px;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 460px) {
+  /*nav-mobile*/
+  .nav-mobile {
+    background: url(http://i448.photobucket.com/albums/qq208/concept_bucket/nav-separator.png)
+      repeat-x center;
+    background-size: contain;
+    width: 100%;
+    height: 20px;
+    z-index: 1;
+    display: block;
+    transition: 0.5s;
+    position:absolute;
+  }
+  .logo-circle1 {
+    top: 0px;
+    transition: 0.5s;
+  }
+  .logo-circle2 {
+    top: 10px;
+    transition: 0.5s;
+  }
+  .logo-home {
+    top: 24px;
+    transition: 0.5s;
+  }
+  .nav-left-tablet {
+    display: none;
+  }
+  .nav-right-tablet {
+    display: none;
+  }
 }

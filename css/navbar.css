@@ -1,0 +1,13 @@
+#navbar
+{
+  weight:100%;
+  height:60px;
+  position:relative;
+  top: 0;
+}
+
+.nav
+{
+  background-color: grey;
+  transition: 0.5s;
+}

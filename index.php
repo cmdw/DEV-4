@@ -30,11 +30,20 @@
 
  </head>
 
+
  <body>
 
+  <div id="navbar" class="navbar">
+  </div>
+  <div class="logo-circle1 top-center1">
+  </div>
+  <div class="logo-circle2 top-center2 gradient">
+  </div>
+  <a href="#" class="logo-home top-center3"></a>
 
   <!-- Script JS -->
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/gradient.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

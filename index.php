@@ -32,7 +32,6 @@
 
  </head>
 
-
  <body>
   <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
   <div id="navbar" class="navbar">

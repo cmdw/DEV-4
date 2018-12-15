@@ -13,6 +13,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
 
+
   <!--- Styles CSS-->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/navbar.css">

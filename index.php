@@ -9,7 +9,6 @@
   <meta name="keywords" content="Nguliktech, Ngulik, Teknologi, Technology">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
